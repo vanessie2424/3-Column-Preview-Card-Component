@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+:root{
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+    --Verylightgray: hsl(0, 0%, 95%);
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+main{
+    background: var(--Verylightgray);
+    min-height: 100vh;
+    display: flex;
+    max-width: 1440px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    width: 670px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 35px 30px;
+    
+}
+
+.sedans{
+    flex: 1;
+    background: var(--Brightorange);
+    border-radius: 10px 0 0 10px;
+    padding: 33px 25px;
+
+}
+
+.suvs{
+    flex: 1;
+    background: var(--Darkcyan);
+    padding: 33px 25px;
+}
+
+.luxury{
+    flex: 1;
+    background: var(--Verydarkcyan);
+    border-radius: 0 10px 10px 0;
+    padding: 33px 25px;
+}
+
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--Verylightgray);
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    color: var(--Transparentwhite);
+    margin: 20px 0;
+
+}
+
+button{
+    background: var(--Verylightgray);
+    border-radius: 2rem;
+    width: 89px;
+    height: 26px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    color: var(--Brightorange);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.btn2{
+    color: var(--Darkcyan);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.btn3{
+    color: var(--Verydarkcyan);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    
+}
+.sedans{
+    border-radius: 10px 10px 0 0;
+}
+
+.luxury{
+    border-radius: 0 0 10px 10px;
+}
+    
+}
