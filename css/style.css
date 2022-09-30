@@ -88,13 +88,31 @@ button{
     color: var(--Brightorange);
     font-family: 'Lexend Deca', sans-serif;
 }
+.btn1:hover{
+    border: solid hsl(0, 0%, 95%);
+    background-color: inherit;
+    color: var(--Transparentwhite);
+
+}
 .btn2{
     color: var(--Darkcyan);
     font-family: 'Lexend Deca', sans-serif;
 }
+.btn2:hover{
+    border: solid hsl(0, 0%, 95%);
+    background-color: inherit;
+    color: var(--Transparentwhite);
+
+}
 .btn3{
     color: var(--Verydarkcyan);
     font-family: 'Lexend Deca', sans-serif;
+}
+.btn3:hover{
+    border: solid hsl(0, 0%, 95%);
+    background-color: inherit;
+    color: var(--Transparentwhite);
+
 }
 
 
